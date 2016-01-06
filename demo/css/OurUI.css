@@ -1,4 +1,3 @@
-/*!/dist/OurUI.css*/
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -275,6 +274,20 @@ h5,
 h6,
 .h6 {
   font-size: 12px;
+}
+p {
+  margin: 0 0 10px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .lead {
+    font-size: 21px;
+  }
 }
 a {
   color: #2db7f5;

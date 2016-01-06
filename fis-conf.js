@@ -18,7 +18,3 @@ fis.match('src/less/index.less', {
     }),
     release: 'dist/OurUI.css'
 });
-
-fis.match('dist/OurUI.css', {
-  packTo: '/demo/css/OurUI.css'
-});
