@@ -28,3 +28,7 @@
 ### 构建工具
 
 OurUI 使用 [fis3](http://fex.baidu.com/fis-site/) 构建项目。
+
+### 使用LESS
+
+OurUI 的 CSS 文件是通过 [LESS](http://lesscss.org/)  源码编译而来的。[LESS](http://lesscss.org/) 是一门预处理语言，支持变量、mixin、函数等额外功能。对于希望使用 [LESS](http://lesscss.org/)  源码而非编译而来的 CSS 文件的用户，OurUI 框架中包含的大量变量、mixin 将非常有价值。
